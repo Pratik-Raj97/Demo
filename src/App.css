@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #333;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #2f1d1d;
+  font-size: 18px;
+}
+
+.content {
+  padding: 20px;
+  width: 100%;
+}
+
+.dashboard .stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard .stat {
+  background-color: #d4e8f5;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+ 
+}y
+
+.gateway-card {
+  border: 1px solid #edcbcb;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.gateway-card h3 {
+  margin: 0 0 10px;
+}
